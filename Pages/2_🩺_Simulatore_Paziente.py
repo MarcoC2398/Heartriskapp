@@ -21,7 +21,7 @@ if "patient" not in st.session_state:
     st.session_state["patient"] = DEFAULT_PROFILE.copy()
 
 
-st.title("🩺 Patient Simulator")
+
 st.subheader("Patient — Enter your values")
 
 
