@@ -5,7 +5,7 @@ st.write(
     """
     In questa pagina verranno mostrati:
     - il dataset utilizzato (anteprima e descrizione colonne),
-    - i passaggi di **pre‑processing** (pulizia, encoding, scaling),
+    - i passaggi di **pre_processing** (pulizia, encoding, scaling),
     - il **modello** scelto per la classificazione (baseline).
 
     """
@@ -36,6 +36,6 @@ if train_button_clicked:
 if "model" in st.session_state:
     st.success("Un modello addestrato è disponibile in memoria e pronto per l'uso nella pagina Simulatore.")
 else:
-    st.warning("Nessun modello in memoria. Fare clic su "Addestra modello" per crearne uno..")
+    st.warning('Nessun modello in memoria. Fare clic su "Addestra modello" per crearne uno..')
 
 
